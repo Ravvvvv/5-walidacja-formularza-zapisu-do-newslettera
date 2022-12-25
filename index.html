@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7.3 [JS DOM] – Walidacja formularza zapisu do Newsletter’a</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+    <form id="newslette-form" action="">
+        <ul id="errors"></ul>
+
+
+        <label for="name">Imię i Nazwisko:</label><br />
+        <input type="text" name="name" id="name" placeholder="Jan Nowak"><br />
+        <label for="email">Adres e-mial</label><br />
+        <input type="email" name="email" id="email" placeholder="jan@Nowak.pl"><br />
+        <br />
+
+        <input type="checkbox" name="agree1" id="agree1">
+        <label for="agree-1">Wyrazam zgode-1 </label><br />
+        <input type="checkbox" name="agree2" id="agree2">
+        <label for="agree-2"> Wyrazam zgode-2</label><br />
+        <input type="checkbox" name="agree3" id="agree3">
+        <label for="agree-3">Wyrazam zgode na wszytkie</label><br />
+
+        <button type="submit" id="sign-up">Zapisz</button>
+
+    </form>
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
